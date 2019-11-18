@@ -1,0 +1,2253 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20192.19.0917.1648                               -->
+<workbook original-version='18.1' source-build='2019.2.4 (20192.19.0917.1648)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts ignorable='true' predowngraded='true' />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='SF_Eviction_Notices (1)' inline='true' name='federated.065mipu0spopry114bjtj1lx8c03' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='SF_Eviction_Notices (1)' name='textscan.0yvhb9t1ivv6up1bz7mej1w8ezu8'>
+            <connection class='textscan' directory='R:/Download' filename='SF_Eviction_Notices (1).csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0yvhb9t1ivv6up1bz7mej1w8ezu8' name='SF_Eviction_Notices (1).csv' table='[SF_Eviction_Notices (1)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Eviction ID' ordinal='0' />
+            <column datatype='string' name='Address' ordinal='1' />
+            <column datatype='string' name='City' ordinal='2' />
+            <column datatype='string' name='State' ordinal='3' />
+            <column datatype='integer' name='Eviction Notice Source Zipcode' ordinal='4' />
+            <column datatype='date' name='File Date' ordinal='5' />
+            <column datatype='boolean' name='Non Payment' ordinal='6' />
+            <column datatype='boolean' name='Breach' ordinal='7' />
+            <column datatype='boolean' name='Nuisance' ordinal='8' />
+            <column datatype='boolean' name='Illegal Use' ordinal='9' />
+            <column datatype='boolean' name='Failure to Sign Renewal' ordinal='10' />
+            <column datatype='boolean' name='Access Denial' ordinal='11' />
+            <column datatype='boolean' name='Unapproved Subtenant' ordinal='12' />
+            <column datatype='boolean' name='Owner Move In' ordinal='13' />
+            <column datatype='boolean' name='Demolition' ordinal='14' />
+            <column datatype='boolean' name='Capital Improvement' ordinal='15' />
+            <column datatype='boolean' name='Substantial Rehab' ordinal='16' />
+            <column datatype='boolean' name='Ellis Act WithDrawal' ordinal='17' />
+            <column datatype='boolean' name='Condo Conversion' ordinal='18' />
+            <column datatype='boolean' name='Roommate Same Unit' ordinal='19' />
+            <column datatype='boolean' name='Other Cause' ordinal='20' />
+            <column datatype='boolean' name='Late Payments' ordinal='21' />
+            <column datatype='boolean' name='Lead Remediation' ordinal='22' />
+            <column datatype='boolean' name='Development' ordinal='23' />
+            <column datatype='boolean' name='Good Samaritan Ends' ordinal='24' />
+            <column datatype='date' name='Constraints Date' ordinal='25' />
+            <column datatype='integer' name='Supervisor District' ordinal='26' />
+            <column datatype='string' name='Neighborhoods - Analysis Boundaries' ordinal='27' />
+            <column datatype='string' name='Location' ordinal='28' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Eviction ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Eviction ID]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Eviction ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Address</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Address]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Address</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Eviction Notice Source Zipcode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Eviction Notice Source Zipcode]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Eviction Notice Source Zipcode</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>File Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[File Date]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>File Date</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Non Payment</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Non Payment]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Non Payment</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Breach</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Breach]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Breach</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nuisance</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Nuisance]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Nuisance</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Illegal Use</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Illegal Use]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Illegal Use</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Failure to Sign Renewal</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Failure to Sign Renewal]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Failure to Sign Renewal</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Access Denial</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Access Denial]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Access Denial</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unapproved Subtenant</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Unapproved Subtenant]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Unapproved Subtenant</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Owner Move In</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Owner Move In]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Owner Move In</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Demolition</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Demolition]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Demolition</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Capital Improvement</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Capital Improvement]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Capital Improvement</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Substantial Rehab</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Substantial Rehab]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Substantial Rehab</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ellis Act WithDrawal</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Ellis Act WithDrawal]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Ellis Act WithDrawal</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Condo Conversion</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Condo Conversion]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Condo Conversion</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Roommate Same Unit</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Roommate Same Unit]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Roommate Same Unit</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Cause</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Other Cause]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Other Cause</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Late Payments</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Late Payments]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Late Payments</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lead Remediation</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Lead Remediation]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Lead Remediation</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Development</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Development]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Development</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Good Samaritan Ends</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Good Samaritan Ends]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Good Samaritan Ends</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Constraints Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Constraints Date]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Constraints Date</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Supervisor District</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Supervisor District]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Supervisor District</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neighborhoods - Analysis Boundaries</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Neighborhoods - Analysis Boundaries]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Neighborhoods - Analysis Boundaries</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[SF_Eviction_Notices (1).csv]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='index' datatype='integer' name='[Calculation_1283244475431665664]' role='measure' type='ordinal'>
+        <calculation class='tableau' formula='RANK(SUM([Number of Records]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='integer' default-format='*00000' name='[Eviction Notice Source Zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column datatype='string' name='[Neighborhoods - Analysis Boundaries]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column-instance column='[Neighborhoods - Analysis Boundaries]' derivation='None' name='[none:Neighborhoods - Analysis Boundaries:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.790168' measure-ordering='alphabetic' measure-percentage='0.209832' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Neighborhoods - Analysis Boundaries:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Golden Gate Park&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Portola&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Mission Bay&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;West of Twin Peaks&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Chinatown&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Oceanview/Merced/Ingleside&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Inner Sunset&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Russian Hill&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Haight Ashbury&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Potrero Hill&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Excelsior&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Outer Mission&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;McLaren Park&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Twin Peaks&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bayview Hunters Point&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Nob Hill&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Western Addition&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Lone Mountain/USF&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Tenderloin&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Financial District/South Beach&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Outer Richmond&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Japantown&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Seacliff&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lakeshore&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;South of Market&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Marina&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Treasure Island&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Mission&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Visitacion Valley&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Hayes Valley&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Presidio&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Glen Park&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Pacific Heights&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bernal Heights&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Noe Valley&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Lincoln Park&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Sunset/Parkside&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Inner Richmond&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Presidio Heights&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Castro/Upper Market&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;North Beach&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Argentina&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Hoja 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Envictions by Year</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SF_Eviction_Notices (1)' name='federated.065mipu0spopry114bjtj1lx8c03' />
+          </datasources>
+          <datasource-dependencies datasource='federated.065mipu0spopry114bjtj1lx8c03'>
+            <column datatype='date' name='[File Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Neighborhoods - Analysis Boundaries]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[Neighborhoods - Analysis Boundaries]' derivation='None' name='[none:Neighborhoods - Analysis Boundaries:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[File Date]' derivation='Year-Trunc' name='[tyr:File Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Neighborhoods - Analysis Boundaries:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Neighborhoods - Analysis Boundaries:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:Neighborhoods - Analysis Boundaries:nk]' member='&quot;Bayview Hunters Point&quot;' />
+                <groupfilter function='member' level='[none:Neighborhoods - Analysis Boundaries:nk]' member='&quot;Bernal Heights&quot;' />
+                <groupfilter from='&quot;Chinatown&quot;' function='range' level='[none:Neighborhoods - Analysis Boundaries:nk]' to='&quot;Japantown&quot;' />
+                <groupfilter from='&quot;Lincoln Park&quot;' function='range' level='[none:Neighborhoods - Analysis Boundaries:nk]' to='&quot;McLaren Park&quot;' />
+                <groupfilter from='&quot;Mission Bay&quot;' function='range' level='[none:Neighborhoods - Analysis Boundaries:nk]' to='&quot;Outer Mission&quot;' />
+                <groupfilter from='&quot;Pacific Heights&quot;' function='range' level='[none:Neighborhoods - Analysis Boundaries:nk]' to='&quot;South of Market&quot;' />
+                <groupfilter from='&quot;Treasure Island&quot;' function='range' level='[none:Neighborhoods - Analysis Boundaries:nk]' to='&quot;Western Addition&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</rows>
+        <cols>[federated.065mipu0spopry114bjtj1lx8c03].[tyr:File Date:qk]</cols>
+      </table>
+      <simple-id uuid='{BBFC6527-D13D-4544-B754-EAFFDAA03A5A}' />
+    </worksheet>
+    <worksheet name='Hoja 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Top 5 Envicted neighbordhoods&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SF_Eviction_Notices (1)' name='federated.065mipu0spopry114bjtj1lx8c03' />
+          </datasources>
+          <datasource-dependencies datasource='federated.065mipu0spopry114bjtj1lx8c03'>
+            <column datatype='string' name='[Neighborhoods - Analysis Boundaries]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[Neighborhoods - Analysis Boundaries]' derivation='None' name='[none:Neighborhoods - Analysis Boundaries:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Neighborhoods - Analysis Boundaries:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Neighborhoods - Analysis Boundaries:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:Neighborhoods - Analysis Boundaries:nk]' member='&quot;Bayview Hunters Point&quot;' />
+                <groupfilter function='member' level='[none:Neighborhoods - Analysis Boundaries:nk]' member='&quot;Bernal Heights&quot;' />
+                <groupfilter from='&quot;Chinatown&quot;' function='range' level='[none:Neighborhoods - Analysis Boundaries:nk]' to='&quot;McLaren Park&quot;' />
+                <groupfilter from='&quot;Mission Bay&quot;' function='range' level='[none:Neighborhoods - Analysis Boundaries:nk]' to='&quot;Outer Mission&quot;' />
+                <groupfilter from='&quot;Pacific Heights&quot;' function='range' level='[none:Neighborhoods - Analysis Boundaries:nk]' to='&quot;South of Market&quot;' />
+                <groupfilter from='&quot;Treasure Island&quot;' function='range' level='[none:Neighborhoods - Analysis Boundaries:nk]' to='&quot;Western Addition&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]' scope='rows' value='Number of envictions' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</rows>
+        <cols>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</cols>
+      </table>
+      <simple-id uuid='{A9129E22-34EC-4930-8777-46333AF30F6B}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='49000' id='3' name='Hoja 1' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='9' name='Hoja 2' w='82400' x='800' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='18250' id='8' name='Hoja 1' pane-specification-id='0' param='[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]' type='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='11' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Hoja 1' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='18250' id='8' name='Hoja 1' pane-specification-id='0' param='[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]' type='color' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='Hoja 2' w='82400' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0C3BC28F-17AC-4322-B5BB-A21042E4EADA}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Hoja 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Golden Gate Park&quot;</value>
+                <value>5</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Presidio&quot;</value>
+                <value>6</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;McLaren Park&quot;</value>
+                <value>8</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Lincoln Park&quot;</value>
+                <value>16</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Mission Bay&quot;</value>
+                <value>21</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Seacliff&quot;</value>
+                <value>40</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Treasure Island&quot;</value>
+                <value>57</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Japantown&quot;</value>
+                <value>77</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Financial District/South Beach&quot;</value>
+                <value>251</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Glen Park&quot;</value>
+                <value>267</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Twin Peaks&quot;</value>
+                <value>336</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Chinatown&quot;</value>
+                <value>434</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Visitacion Valley&quot;</value>
+                <value>472</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Portola&quot;</value>
+                <value>484</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Presidio Heights&quot;</value>
+                <value>492</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Potrero Hill&quot;</value>
+                <value>633</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Western Addition&quot;</value>
+                <value>658</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Outer Mission&quot;</value>
+                <value>693</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;West of Twin Peaks&quot;</value>
+                <value>755</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Lone Mountain/USF&quot;</value>
+                <value>833</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Oceanview/Merced/Ingleside&quot;</value>
+                <value>856</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;North Beach&quot;</value>
+                <value>959</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Russian Hill&quot;</value>
+                <value>987</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Bayview Hunters Point&quot;</value>
+                <value>1115</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Inner Richmond&quot;</value>
+                <value>1116</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Pacific Heights&quot;</value>
+                <value>1147</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Bernal Heights&quot;</value>
+                <value>1186</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Inner Sunset&quot;</value>
+                <value>1186</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Noe Valley&quot;</value>
+                <value>1202</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Excelsior&quot;</value>
+                <value>1228</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Marina&quot;</value>
+                <value>1258</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Haight Ashbury&quot;</value>
+                <value>1320</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>%null%</value>
+                <value>1388</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Nob Hill&quot;</value>
+                <value>1395</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;South of Market&quot;</value>
+                <value>1430</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Hayes Valley&quot;</value>
+                <value>1486</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+            <field>[federated.065mipu0spopry114bjtj1lx8c03].[usr:Calculation_1283244475431665664:ok:1]</field>
+            <field>[federated.065mipu0spopry114bjtj1lx8c03].[yr:File Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D9951BB1-CC8C-49CC-AE0E-F11EB4818E45}' />
+    </window>
+    <window class='worksheet' name='Hoja 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='2' param='[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Golden Gate Park&quot;</value>
+                <value>5</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+                  <field>[federated.065mipu0spopry114bjtj1lx8c03].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Presidio&quot;</value>
+                <value>6</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FC99A27C-517B-4167-86F3-2524B1277C45}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Hoja 1'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.065mipu0spopry114bjtj1lx8c03].[none:Neighborhoods - Analysis Boundaries:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Hoja 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='9' />
+      <simple-id uuid='{AD6C92C3-54E1-473C-9C61-FCEE32A725EA}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Hoja 1' width='192'>
+      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
+      pg+AP+A3AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Hoja 2' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
