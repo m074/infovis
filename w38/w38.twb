@@ -1,0 +1,1359 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20192.19.0917.1648                               -->
+<workbook original-version='18.1' source-build='2019.2.4 (20192.19.0917.1648)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts ignorable='true' predowngraded='true' />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Actions (Positive Impact Events - Actions (1))' inline='true' name='federated.14151bb1cdmyzn0zkt9hp12a5evd' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Positive Impact Events - Actions (1)' name='excel-direct.1y4h2q01s3sot313q2x570akdhrg'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='R:/Download/Positive Impact Events - Actions (1).xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1y4h2q01s3sot313q2x570akdhrg' name='Actions' table='[Actions$]' type='table'>
+          <columns gridOrigin='A1:K7572:no:A1:K7572:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Age' ordinal='0' />
+            <column datatype='string' name='Gender' ordinal='1' />
+            <column datatype='string' name='Education Level' ordinal='2' />
+            <column datatype='string' name='Disability' ordinal='3' />
+            <column datatype='string' name='City' ordinal='4' />
+            <column datatype='string' name='Country' ordinal='5' />
+            <column datatype='integer' name='Goal' ordinal='6' />
+            <column datatype='string' name='Action' ordinal='7' />
+            <column datatype='string' name='Duration' ordinal='8' />
+            <column datatype='string' name='Job Role' ordinal='9' />
+            <column datatype='integer' name='ActionID' ordinal='10' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Actions]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Actions]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education Level</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Education Level]</local-name>
+            <parent-name>[Actions]</parent-name>
+            <remote-alias>Education Level</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Disability</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Disability]</local-name>
+            <parent-name>[Actions]</parent-name>
+            <remote-alias>Disability</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Actions]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Actions]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goal]</local-name>
+            <parent-name>[Actions]</parent-name>
+            <remote-alias>Goal</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Action</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Action]</local-name>
+            <parent-name>[Actions]</parent-name>
+            <remote-alias>Action</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Duration</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Duration]</local-name>
+            <parent-name>[Actions]</parent-name>
+            <remote-alias>Duration</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Role</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Job Role]</local-name>
+            <parent-name>[Actions]</parent-name>
+            <remote-alias>Job Role</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ActionID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ActionID]</local-name>
+            <parent-name>[Actions]</parent-name>
+            <remote-alias>ActionID</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Actions]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K7572:no:A1:K7572:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Action ID' datatype='integer' name='[ActionID]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Action]' role='dimension' type='nominal' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Duration]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column-instance column='[Action]' derivation='None' name='[none:Action:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Duration]' derivation='None' name='[none:Duration:nk]' pivot='key' type='nominal' />
+      <group hidden='true' name='[Exclusiones (Action,Duration)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Action:nk]' />
+          <groupfilter function='level-members' level='[none:Duration:nk]' />
+        </groupfilter>
+      </group>
+      <drill-paths>
+        <drill-path name='Country, City'>
+          <field>[Country]</field>
+          <field>[City]</field>
+        </drill-path>
+      </drill-paths>
+      <layout dim-ordering='alphabetic' dim-percentage='0.561151' measure-ordering='alphabetic' measure-percentage='0.438849' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Duration:nk]' type='palette'>
+            <map to='#86bcb6'>
+              <bucket>&quot;I would like to but I don’t know how&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;1 month&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Forever&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;6 months&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Argentina&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Hoja 1'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Actions (Positive Impact Events - Actions (1))' name='federated.14151bb1cdmyzn0zkt9hp12a5evd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.14151bb1cdmyzn0zkt9hp12a5evd'>
+            <column datatype='string' name='[Action]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Duration]' role='dimension' type='nominal' />
+            <column-instance column='[Action]' derivation='Count' name='[cnt:Action:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Action]' derivation='None' name='[none:Action:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Duration]' derivation='None' name='[none:Duration:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.14151bb1cdmyzn0zkt9hp12a5evd].[Exclusiones (Action,Duration)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Action:nk]' />
+                <groupfilter function='level-members' level='[none:Duration:nk]' />
+              </groupfilter>
+              <groupfilter function='reorder-dimensionality'>
+                <groupfilter function='union'>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:Duration:nk]' member='&quot;1 month&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;agree with the above&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Always check before choosing a venue&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;always search venues with differetial garbage facilities&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ask event  location/hall to introduce energy saving measures such as reduced lighting/ventilation/heat during event preparation (ex. during exhibitor move&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ask how many employees are fulltime with benefits.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ask your suppliers to provide energy efficient products&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ask your suppliers to use their resources efficiently&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;avoid and minimize emission intense activities (eg. meatfree evnts)&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Banir les bouteilles deau et les remplacer par des gourdes&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Be more prepared for extreme weather events&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Benefits&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Boost and improve Education&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;change all lighting with LED&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Check all fish served are sustainably sourced&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Check your suppliers are paying their staff at least the minimum wage&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;choose a destination that is not negatively impacted by additional visitors or overtourism&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose a developing country destination for your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an event destination which is adopting and implementing policies to mitigate and adapt to climate change&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an event destination which is equally accessible and affordable for all&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an event destination with access to safe, affordable, accessible and sustainable transport systems&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an event destination with renewable energy sources&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an organic and seasonal food menu&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose event content and materials which promote local culture and products (and creates local jobs)&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose local products that are sustainable (local fishermen; local producers; unique local experiences; foods and products).&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose suppliers who are reporting on their sustainability initiatives and/or encouraging the event industry to share best practice&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choosing suppliers who practice conservation in utilizing resources.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Collaborate with the local community to understand the potential event impacts&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Collaboration&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;community engagement plan with local benefits&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Consider destinations close to audience demographics and with diverse transportation infrastructure&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;continental instead of intercontinental travel and economy&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Continue compliance with ISO 50001&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Contract venues that support sustainable practices&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;count less participants for the catering&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create a circular economy policy&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create a contest during the conference around donating to those in need.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create an anti discrimination policy for your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create an equal opportunity policy for your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;create awareness and action through viral social media content&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create digital ordering onsite to avoid excess shipping waste on return materials that dont sell&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create menus with sustainable seafood options&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create spaces/environments that alleviate stress to vulnerable attendees&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;CSR Event supporting local food bank&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Deliver an activity at your event to facilitate inclusion and participation from all&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Deliver Dementia Friends sessions&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Demand to our governments to efficiently manage all the money  so everyone can develop sustainable industries&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Develop a roundtable event on addressing issues and solutions of injustice like over&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Develop consistent communications with partners&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Do an environmental impact assessment on the land being used for your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;do not take plastic bags. but on local markets all food served in plastic bags and containers.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Do not use an event destination with high levels of air, water and soil pollution&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;do not use plastic bottles at te event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Donate and volunteer for local food bank&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;donate to food banks&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Donner un bilan carbonne pour chaque programme et proposer des options de compensation&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;educate and encourage prevent; reduce; recycle and reuse&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Educate attendees of their impact and offer incentives to pay back to the local environment and communities.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Encourage clients to create opportunities for delegates to contribute to non&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Encourage producers of event education to focus on creating more gender equality for speakers. Actively search for them.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Enlarge the action to diversity&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure all parties get equal pay&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure all staff are paid at equal rates; regardless of gender&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure at least 50\% of content for your event is provided by women (eg panel conversations)&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure at least 50\% of the comity that select content for your event are women&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure living wages for temporary event workers&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure that the event always provides access to those who need it&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Evaluate our own destinations action to compare with the goal&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Exercise regularly and east healthy&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Find local food banks and work directly to implement a strategy and procedures to ensure food is properly contained and transported to those in need.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Focus on plant&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Food runners&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;get rid of government intervention in the markets&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;girls on track programme&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Give back to the community via recs&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;have a seminar at all events available to educate those from college and down&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;I am not an organiser but I actively support this.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;I raise the profile where possible; in context.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Identify where you are using plastic at your event and choose suppliers who can help you reduce this use&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;If you can at least educate 01 poor person. who cant afford his study expanses. I have been doing it for years. Its give you a lot of happiness.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;In order to provide achieve the actions above I will need to gain support from others within the company.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;in place for our chapter workshops and annual conference&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Internal training in mental healthInclude wellness activity on conference programmes&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Join a mentorship program&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Keep trash out of local water sources by participating in local clean&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Lead by example and share with other event profs&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Make venue rooftops solar and venue to  have water harvesting&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;MHFA; MICE plus specific direction to relevant support&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Minimize Food waste and donate leftovers&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;More LGBT / BAME opportunities&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;N/A&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Need to Keep you surrounding clean &amp; it all starts from us. Which i have been doing it for years&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Never waste food.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;No plastic bag; no pet bottles; recycle&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;No plastic water bottles at all&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Offer  educational institutions access to learn&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Offer Carbon offsets to attendees&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;pay the assistant staff at the events without delays and decent&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Plant a tree as an activity&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Preference to destinations with a maximum economic impact&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Promote  sustainable products&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Promote  the problems of food waste&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;promote bring your own bags&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;promote career development &amp; advancement&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Promote individual support and open communication&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Promouvoir le QuÃ©bec comme destination durable&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide access to different waste stream bins (food waste, glass, paper, metal, plastic etc) at your event and work with your supply chain to prevent, reduce, recycle and reuse&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide accessible drinking stations at your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide delegate transport options using electric vehicles&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide education about national &amp; global health risks at your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide education about social, economic and political inclusion of all at your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide education to attendees&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide internships to allow young people to gain relevant skills&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide Internships to college students&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide refillable water bottles at all events&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide reusable tumblers to all attendees&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide training at events on Human Rights&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide training at events to end human trafficking&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide women leadership training&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;purchasing directly from farmers&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Raise awareness about sustainable fish and seafood&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;RE100 membership&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;reduce portion sizes&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Reduce the usage of single use plastics even though recyclable too much waste.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Reduce waste at events by allowing attendees to select if they require a bag for example.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;regularly organize seminars related to sustainability to provide the latest info for people who work in the event industry&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Report on your event’s sustainability&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Requesting venues to provide reusable items&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Required for sustainably committed planners to put climate action initiatives in all RFPs for venues&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Review law about heritage&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Seek transport which carries the lowest carbon impact&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Sensibiliser les clients Ã  leurs consommation via un bilan.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Share content created at events which will support an increase in knowledge and skills for sustainable development&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Shop wisely; avoiding single&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Should have quote system and every employee should have 50:50 for Male &amp; Female. Which i have been doing in my organization&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Solar panels installed&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;suppliers and sustainability work&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Support equality marches&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Support initiatives to protect bees&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Support local NGO/Charity through Catering possibilities&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;sustainable seafood on menus only&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;take food from grocery stores to shelter&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Tap into local utility company for suggestions&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Team members have wellness action plans&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;thank you&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;The key thing here is educating exhibitors and their contractors and how to achieve action through them&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Through charity choices at events&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;True Diversity Charter&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use education in tandem with different waste streams&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use hybrid or electric vehicles for transfers&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;use local supplies and small firms&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use recycled water through toilets&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use reusable materials&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;use tap water not bottled&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Utilser des gourdes deau&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;We are a sustainable event venue&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;We dont use any plastic water bottles at our events.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;We encourage our attendees to bring their own water bottles; but not all centers have water bottle filling stations&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;We have a LEED Platinum Net Zero Energy building for our headquarters and hold most of our meetings here. Whenever possiblem we use caterers who use organic sustainable food to prepare meals. All of our travel is set off with carbon offsets&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;We have created DEI Work groups &amp; sub teams. We have SEI &amp; harassment training for the entire company.  We have guidelines for hiring that include DEI. We have a DEI Book Club. We are 80\% female employees.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;We have established a wellness center at our annual meeting to provide a place for yoga; stretching; massage and games to give your body and brain a break&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Work with organizations to assemble food kits for those in need.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Work with suppliers that have minimum standards in place&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;You need to pay proper wages to your staff&quot;' />
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:Duration:nk]' member='&quot;6 months&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot; Speak at local Schools&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ask your suppliers to provide energy efficient products&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ask your suppliers to use their resources efficiently&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Balanced leadership + attendance&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Be aware of the suppliers staff condition in each event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Benefit local food charity by my events&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Carbon credits for all flights&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Check your suppliers are paying their staff at least the minimum wage&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose a developing country destination for your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an event destination which is adopting and implementing policies to mitigate and adapt to climate change&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an event destination which is equally accessible and affordable for all&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an event destination with access to safe, affordable, accessible and sustainable transport systems&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an event destination with renewable energy sources&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an organic and seasonal food menu&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose event content and materials which promote local culture and products (and creates local jobs)&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose suppliers who are reporting on their sustainability initiatives and/or encouraging the event industry to share best practice&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose transportation that uses renewable energy&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Collaborate with the local community to understand the potential event impacts&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Combat trafficking as city host to the 2020 Super Bowl&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create an anti discrimination policy for your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create an equal opportunity policy for your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;create check list for subcontractors to follow sustainability action&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Creation dun programme de Learning au fÃ©minin&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Decreased food waste at home&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Deliver an activity at your event to facilitate inclusion and participation from all&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Do an environmental impact assessment on the land being used for your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Do not use an event destination with high levels of air, water and soil pollution&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Education is much more than sustainable development&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Empower events to deliver better outcomes&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure at least 50\% of content for your event is provided by women (eg panel conversations)&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Health must be holistic health&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;I personally prepare on a small scale meals and distribute to the homeless on the street.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Identify where you are using plastic at your event and choose suppliers who can help you reduce this use&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Improve efficacy of events to deliver more tangible outcomes&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Investigate carpet tile washing methods&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Look for new suppliers who have new products&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Make available natural springs and existing wells to all. Some will require cleaning.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Offer Km0 menu for the event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Pro bono event design Projects for good&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Promote public transport at my event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide access to different waste stream bins (food waste, glass, paper, metal, plastic etc) at your event and work with your supply chain to prevent, reduce, recycle and reuse&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide accessible drinking stations at your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide education about national &amp; global health risks at your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide education about social, economic and political inclusion of all at your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide internships to allow young people to gain relevant skills&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;provide ride sharing opportunities at annual conference&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide training at events on Human Rights&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide training at events to end human trafficking&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;providing glassware rather than disposable glasses&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Report on your event’s sustainability&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Select activities where renewable energy is possible&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Share content created at events which will support an increase in knowledge and skills for sustainable development&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Share the information around; speak out&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Try to eliminate the water bottle at the coffee break&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use reusable materials&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Using biodegradable straws; and other utensils.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Work with selected suppliers to calculate overall event impact&quot;' />
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:Duration:nk]' member='&quot;Forever&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;\#N/A&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Add all recyclable materials at my event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Add one sustainable practice each meeting&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Advocacy forums to showcase the social /economic relevance of business events&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Advocate for living wages for staff at all levels of an event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;advocate for this particular topic during the event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Again the actions above are about education and getting other people to support these initiatives.  My action will be to help motivate others.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;All crops used&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;all facility required a solar panel to create part of electricity for the event there&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;All our logistic and design event process is zero waste&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Always provide healthy activities and access to clean food options at events.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ask attendees to make a carbon offset donation&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ask for no plastics;  have  attendees bring their own water bottle; coffee cups and use only recycled products.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ask your suppliers to provide energy efficient products&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ask your suppliers to use their resources efficiently&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Asking at every venue what they do &amp; create awareness&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;attend TICA&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Avoid bottled water&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ban ALL single use plastics inc  disposable coffee cups and drinks bottles&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ban non&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Be aware of the multiple ways to save energy; promote them; and boost  new energy technologies&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;become paperless&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Being vegetarian&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Belong to Soroptimist local  (womens service group) chapter (Latin for Best for Women)&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Bring awareness of green practices to all clients and remind hotels.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Bring clients together to share best practices&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Bring up the standards at our CIC event with revised RFP for Chapter events as well&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Build bridges to siloed organizations also doing the good work. Goal is awareness of signs and what to do within our respective industry focus.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Build coalitions of organisations who are pursuing similar objectives and leverage the strengths of each of them&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Build modern airports; offer public transportation alternatives; enhance innovation&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;build relationships with suppliers in an attempt to shift their paradigm towards sustainability&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Build smarter menus that limit waste&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Build strategies to integrate the SDGs in event strategies to support community resilience&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Build the event infrastructure; so that the event will  lessen the long term impact to the immediate environment.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Calculate food production accurately to avoid food waste&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Carbon offsets; zero waste policy; donate leftover materials; know supply chain on products; only use recyclables; opt&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;careful planning at event location&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Celebrate innovation in sustainable solutions&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;challenge suppliers to make creative; green products as affordable as the conventional ones&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;check whether the venue has any existing impact policies&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Check your suppliers are paying their staff at least the minimum wage&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose a city that encourages public transport or enables delegates to walk safely&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose a destination that is offering atternatives to ridesharing like Uber or Lyft&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose a developing country destination for your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an event destination which is adopting and implementing policies to mitigate and adapt to climate change&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an event destination which is equally accessible and affordable for all&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an event destination with access to safe, affordable, accessible and sustainable transport systems&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an event destination with renewable energy sources&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an organic and seasonal food menu&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose destinations that balance local community needs with incoming visitors&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose destinations that have a destination sustainability strategy&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose event content and materials which promote local culture and products (and creates local jobs)&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose hotels/venues closer to the source of attendees&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose low traffic destination offbeat&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose materials that are sustainably sourced and reusable&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose responsible materials&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose suppliers who are reporting on their sustainability initiatives and/or encouraging the event industry to share best practice&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose vendors that actively work to not put all food out at once so as to maintain quality in order to donate to local missions; shelters etc.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose venues and hotels that have a sustainable culture and practices in place.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Climate Risk Assessments now!&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;coaching of other event planners&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Collaborate with suppliers to develop more sustainable practices.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Collaborate with the local community to understand the potential event impacts&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Collaboration&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Commit to reduce light pollution for tradeshows.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Compensate my GES for my own travel&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Connect people with innovative knowledge and demonstrate that solutions to the SDGs are possible&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Connecting with local food banks on action plans for providing  left over or unused food&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Conserve Water in desert&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Consider environmental impact first and foremost in every decision&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Consider outreach to local schools to create a program on sustainability with our learned practices.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Continue collaborative working&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Continue efforts to support UN Development goals that align with our property and participate in Fundraising Charity opportunities&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Continue on site LED Project and explore more digital collateral&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Continue supporting Restore NYC program&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;continue to support women to achieve recognition awards&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Continued outreach to pre/post graduate High School and colleges creating a base of Hospitality 101 with on site guidelines and insider knowledge within specific areas of interest directly with Leadership teams.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Contribute to developing novel ways to support the industry becoming more sustainable&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;control temperatures at meeting venues&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Coordinate with local community groups to reduce food waste at their functions&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create a green comittee in my company&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create alliance with partners to benefit from each others services&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create an anti discrimination policy for your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create an equal opportunity policy for your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create art projects that promote education to be showcased at events.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;create awareness and action through viral social media content&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create awareness; using icons &amp; visuals &amp; provide info to the client&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create choice to drive competition and raise standards.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create conscious about biases&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;create experiences with a low carbon footprint&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;create greater opportunities for innovation to thrive out with the event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create more awareness about sustainable events&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create plant based meals as an option&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create spaces where people can discuss the SDGs&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create specific education resources for low&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create work experience for people with special needs&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;creative subjects on schools curriculum&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Cut back on throwing out food.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;cut down on single use plastics&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Cut energy usage where possible&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Decrease food costs&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Deliver an activity at your event to facilitate inclusion and participation from all&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Determine ways to reduce environmental impact; like using recyclable materials whenever possible; lower carbon monoxide footprint&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Develop more local events&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Develop on&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Develop software to report on waste and recycling&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Discuss sustainable menu choices with the chef&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Do an environmental impact assessment on the land being used for your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Do not use an event destination with high levels of air, water and soil pollution&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Do not work with suppliers without obvious sustainability initiatives&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;DonÂ´t waste food&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Donate money to people in need&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Donate to local food bank from weekly shop&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;donate to water programs;&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Drink the last drop in your glass&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Eat No red meat&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;educate clients as to importance of sustainable choices&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Educate clients to a more sustainable events&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Educate delegates on choosing clean energy&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;educate employees and clients&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Educate event organizers to be aware of green practices&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Educate myself and others on sustainable cities&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Educate the participants about the importance around it.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Education &amp; Trainings&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Eliminar el icopor  y minimizar los recipientes de plÃ¡stico&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Eliminate Bottled waters with carton water; ban plastic straws by end of 2019&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;eliminate single use plastics&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;eliminate waste and save water usage&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Embrace different cultures in the meeting&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Encourage better life/work balances and flexibility&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;encourage carpooling&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Encourage carpooling and select hotels that are not a distance from airports&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;encourage clients to have contest that end in a donation to the local community in which the event is occuring rather than giving out useless swag&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Encourage destinations to invest in clean energy for their convention centers&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Encourage empowerment over marketable diversity&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Encourage less use of single use plastics at events&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Encourage other planners to report on their event sustainability&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Encourage rule of law in developing nations to keep people engaged with their home country.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Encourage zero population growth in middle east and subsaharan nations.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;End unlawful immigration across the world.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Engage in smart eco&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Engage Organisers and Attendees in Ownership of Waste Responsibility. Individual and Collective response to consumables.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;engage owners; developers and investors to build sustainable infrastructure&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Engage the industry to work together to solve the big issues&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Engage the whole value chain in a discussion about circular economy and what that could look like around events&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure access to food to all participants by prioritizing food vendors that sell at affordable prices.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure all suppliers reduce plastics&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure at least 50\% of content for your event is provided by women (eg panel conversations)&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure each gender is chosen because they are the best candidate not because of their gender.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure planning groups and committees are diverse&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure suppliers when organising events overseas are paid a fair wage for their work based on our UK interpretation of fair&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure the best person is selected for a job; speaking or any other opportunity regardless of gender&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure the speaker mix is reflective of the diversity in my audience; which is over 75\% female.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure venue is operating in an energy efficient manner.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure venues are chosen that did not displace local housing&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure VIP audience is appropriately split.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Establish a sustainable population level as a first step&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Establish distribution network for donated food&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Event destinations are usually dictated by criteria other than water saving initiatives to it is best to try and influence all venues / destinations to get involved in this action.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Events that promote peace not war&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ex offender programme to get them back into workplace&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Exploring Fitness Partnerships that benefits guests and colleagues&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Exploring sustainable signage options&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Find a better way to grow; transport; sell; and consume food grown locally.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;find ways to reuse; reduce and recycle all items used at the event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Finding venues walk&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Food banks and no waste policies in banquets&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Force equality by the selection of panels; people and teams&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Fund teachers and schools&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Fundraising and Education&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Gestionar con Restaurantes donaciÃ³n de alimentos que sobran&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Get men involved in female matters&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;give equal chances to equally gifted men and women&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Global Standards; local way of doing business&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Go Green at all events; limit consumption via paper&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Go net zero by 2025&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Go vegan; dont have children&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Have attendees bring their own bottles instead of offering plastic bottles&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Have attendees bring their own reusable water bottle.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Have metal heath first aider Training for staff&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Have no handouts at events&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Health Equity is a major and ongoing concern of APHA. We have many sessions that focus on this topic.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;hire refugees and handicap at the venue and hotels for MICE event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;host sessions on inclusion&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;I actively encourage my clients to do this and support and teach the MPI Diversity Certification&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;I am working with meeting design in the event industry to create better action related sustainability sessions.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;I have stopped buying teabags and now only purchase tea leaves!&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Identify where you are using plastic at your event and choose suppliers who can help you reduce this use&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;If you live in CA; reduce the electrical rate gouge.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Implement activities with low carbon emissions&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Implement Diversity; Inclusion &amp; Equity task force recommendations when they are ready&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Improve education opportunities in developing countries to cut down on immigration.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Improve quality of data collection at the venue&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Improve staff satisfaction and working environment&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Improved selection and choice from venues&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Include environmental giveback opportunities to offset footprint&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Include give aways and presents from local communities&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Inclusion policies for meetings industry&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Incorporate it into educational requirements at all levels&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Incorporating mindfulness into my events and the importance of taking a mental break by disconnecting from digital devices.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Inform and encourage staff to take available free career advancement courses&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Inform the participants &amp; suppliers; no single use plastics; no single use give aways&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Insist on fair and competitive wages for industry employees.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Introduce circular economy best practice&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;introduce clients to sustainability champions&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Invest in innovative  economic science&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Involve with the community&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Just stop wastage of any kind&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Knowledge sharing across and beyond the industry&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Learn/Educate More about energy savings/ clean energy&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Leeds certified requirements on all new hotels.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Link events to educational and government goals&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Lobby for government regulations to demand such changes&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Lobby policy makers to adopt sustainable practices&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;local food network&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Locally sourced foods; sustainable&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Make delegates aware of ways to protect our water supply&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Make Donations of clothing&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;make events accessible for everyone&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Make events inclusive regardless of  gender identity&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Make it the culture of your business to be sustainable and take sustainable actions at each event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Make More Food Donations&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Make several announcements to encourage people to use the bins and make them aware of them&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Make sure that there are gender neutral restrooms&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Make this a priority and elevate teacher pay and job status&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Make this a question when sourcing a venue&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Manage the impact of flights for our events&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;member/attendee  needs assessment at our annual conference&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;mentor young event professionals to work alongside us&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;mentor young professionals&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Minimize and monitor plastic use overall&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;More awareness of how to deal with gender diversity&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;More gender equality at management and C level.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;More public transport so people can get to events&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Motivate participants to use public transport&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Neutralize Carbon print&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;never waste or throw away any food&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;No car; use public transportation&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;no parking event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Offer affordable or free food at events for attendees who need it&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Offer more community food banks.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Offer solidary fees&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Offered work and training opportunities for lower income graduates&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Offset carbon emissions; source materials responsibly&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Offset emissions&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;only supply fish that come from sustainable fishing&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Only use seasonal foods&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Open conversation on honest and truthful discussions for information&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Opening a plant based restaurant and working with conference   events bookers to choose greener options&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Order less food&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Organizing She Means Business; a conference about diversity; gender equality and female empowerment&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;part of our DNA for our Canadian Innovation Conference&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;ParticipaciÃ³n de personas de diferentes razas y sexo en la organizaciÃ³n del evento&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Partner wit local organizations that support poverty reduction&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Partner with local organizations that help to feed at&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Pay our own staff a living wage&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Pay our staff a fair; market wage and work to decrease the gender pay inequality in the events industry (now at 38\% difference between men / women)&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Phase out conference books and other printed materials and go digital (make content available online/USB sticks; etc.).&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Place facts around events about the impact of our events on our oceans/water&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Place funding into public education programs not allow private school vouchers.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Plant trees or vegetables in the local community.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Prioritize event design elements with more energy use efficiency.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Produce Event Specific or Venue specific carbin footprontong and measurment&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Promote local growers&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;promote mental health&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;promote more  women speakers and talent to clients&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Promote more diversity at my company&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Promote our industry in universities and educational centers to link curricula to industry needs&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Promote reuse/recycling&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Promote rideshare and carpooling&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Promote sustainable cities as event destinations for all future events.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Promote use of water fountains and the use of personal water reusable water bottles. No more single use plastics.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Promote/deliver education on circular economy&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Promoting collaboration between event industry associations through panel discussions and joint approaches to market.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;provide a female&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;provide a healthy environment at our meetings&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide access to different waste stream bins (food waste, glass, paper, metal, plastic etc) at your event and work with your supply chain to prevent, reduce, recycle and reuse&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide accessible drinking stations at your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide an energy rating at pitch level of each venue&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide education about national &amp; global health risks at your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide education about social, economic and political inclusion of all at your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;provide green buses for shuttle service&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide internships to allow young people to gain relevant skills&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide Job opportunities&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide meal for employees&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide meals&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide meat based alternatives&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide meditation and reflection areas in event spaces&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;provide mindfulness/meditation rooms /classes or workshops at events&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide more networking and interactive opportunities for different cultures to come together.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;provide more plant&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide opportunities for delegates to get active&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide option for attendees to offset travel to and from event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;provide tap water instead of bottle water in the event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide training at events on Human Rights&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide training at events to end human trafficking&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide training at various communities and get the media involved&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Providing reliable equipment and support resources&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;purchase more local products for events&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Pursuit effectiveness of daily work (no more unnecessary paperwork!)&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Put a committee in charge of ensuring equality&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Que no sean solo las mujeres las que hagan el aseo&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Raise awareness to pay fair wages&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Read related articles.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;realizar estrategias de capacitaciÃ³n para que la comunidad se articule con los objetivos de sostenibilidad  del evento&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Recycling; education&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Reduce attendee travel carbon footprints by organizing events in different optimal locations; live&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Reduce consumption&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;reduce consumption on all items particularly single use plastics&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Reduce Environmental injustices and engage in positive long term community legacy.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Reduce food waste and donate edible healthy food (dont donate food waste!)&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Reduce food waste by proper portioning and training&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Reduce grey water initiatives at hotels for my event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Reduce or eliminate event registration fees to accommodate lower income people&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Reduce quantity of meat served at events&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Reduce the carbon transport in the event planning&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Reduce waste&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Reduce; reuse and recycle all materials&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;reduce; reuse; recycle&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;reduce; reuse; recycle more&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;refuse plastic and advocate the same on every possible occasion&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;reject options for non&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Release of Julian Assange. Promote; accept Truth upholders; sites etc. to remove wrong doings/darkness/evil/war terrorists/savages in this world.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Remain peaceful and fair; and lead by example&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;remove plastic packaging and single use plastics when presenting to guests&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;remove single use plastics in the space&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Report on your event’s sustainability&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;representation in all chapter committees&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Request event organizer to make donations to nonprofits or programs that reduce poverty.  (Also give priority to vendors whose employees include economically vulnerable groups)&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Required for sustainably committed planners to put hunger relief initiatives in all RFPs for venues&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Required for sustainably committed planners to put must be a city with sustainable initiatives in all RFPs for venues&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Required for sustainably committed planners to put plastic reduction initiatives in all RFPs for venues&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Required for sustainably committed planners to put sustainable consumption initiatives in all RFPs for venues&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Required for sustainably committed planners to put water saving initiatives in all RFPs for venues&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Responsable consume&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Reusable water bottles&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Reviewing supply stream to reduce packaging&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Reward clean air cities&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;SDG Sensibilation &amp; Workshops&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;See below.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Select suppliers who are concerned about the SDGs and who are   working towards them&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Select suppliers with provable sustainability policies where possible&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Select venues that support sustainability&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Selecting organic farmers and purchase directly to ensure pricing is affordable and provide safe food for our guests and associates&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Set up relevant climate action processes&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;share best practices&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Share content created at events which will support an increase in knowledge and skills for sustainable development&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;share food sources and eliminate waste&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Share practices&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Share the content with people that cannot attend&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;shop local&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Show the results of the environmental impact of an event in comparison to ours&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;site briefing for all people entering site&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Source fresh food/beverages from local community&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Source more sustainable event consumables and endeavor to move more to a reusable model&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Speak and write about SDGs&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Speak up and fight for equality&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Staff to be targeted on sustainability&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Staff to be targeted to reduce carbon footprint&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Start with my own home and circle of influence&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Stop printing 200+ page program book&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Suggest CSR donations to ocean projects&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Suggesting water projects as CSR to Corporations&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Support Courtauld 2025 and WRAPs Guardians of Grub&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Support event hosting communities in better understand and leverage the value that events can bring to support the development of the community&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Support local food bank programs through CSR programs&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Support local producers&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Systematic Sampling of all waterways affected by event; monitoring and reduction of human/ event industry pollution into said waterways.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Talk to clients about how their events could support this&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Talk to clients about intended audience to ensure they select the most ethical and accessible venue for the planet&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Talk to people close to you. Acknowledge take care of family&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Team to know their working rights onsite&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;The answers to your questions make no sense with the questions&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;The citys leaders should be held responsible&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Thoroughly planning&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;too many operating in sylos&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Trabajar con la cadena de valor lapolitica de producciÃ³n y consumo sostenible&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Truthful reporting on sustainability&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Try to eliminate waste throughout program&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use a Venue who is LEED Gold or Platinum Certified&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use biodegradable items instead of plastic&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use certified food and drink products&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use correct pronouns&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;use e.g. public transport if suitable&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;use environment&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use green electricity&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;use group transfers whne possible&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use less materials&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;use local staff if possible&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;use local suppliers&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use local suppliers to limit carbon footprint&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;use only sustainably produced food produce&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;use public transport if possible&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use reusable materials&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use suppliers and destinations that have active climate saving programs in place&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use sustainable materials&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use venues that have a strong environmentally preferred purchasing policy&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Water standpipes in all our parks and ready to use&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;We actively seek out minority and women owned vendors; using our DEI policy in all our RFPs. We provide discounted exhibit rates for MWBE and registration scholarships to make our event more equitable. We create an inclusive environment that I cant describe here  b/c word count.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;We also provide carbon offsets for our events.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;We have a diversity; equity; and inclusion policy that we use year round.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;We have a sustainability website where we pull together all the pertinent information from the convention center regarding their carbon footprint (water and electrical sustainability efforts; composting; etc.)&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;We have created DEI Work groups &amp; sub teams. We have SEI &amp; harassment training for the entire company. We fund family planning and reproductive health nonprofits&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;We have strict environmental standards for meals. We limit our meat consumption. We provide free transportation passes.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;We have sustainable guidelines for our caterers. We provide grants for sustainable agriculture.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;We hire local vendors and share information with attendees so that they know of ways to thank convention center staff; tip housekeepers; and  get to know the community by shopping and dining local.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;we measure food waste from prep to serve and remains after a buffet.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;We provide grants to support sustainable seafood. We only have sustainable seafood at our meals.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;We select future year sites where all hotels are walkable to the Convention Center.  We also provide our attendees with information about public transportation to and from the airport and around town.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;we work with protect forest&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;wellness plan&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Work a food rescue into any program that you can.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Work to ensure women who are producing the event have the same respect as men and women who are coming up with strategy for the event.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;work with NGOs on initiatives; share in sustainable forum and had shared with over 5000 delegates since 2014&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Work with other sustainable supplier partners&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Work with union facilities to ensure decent pay and working conditions of those that serve events&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Working with local communities to create workplace opportunities&quot;' />
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:Duration:nk]' member='&quot;I would like to but I don’t know how&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ask your company to provide energy efficient solutions.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ask your suppliers to provide energy efficient products&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ask your suppliers to use their resources efficiently&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Check your suppliers are paying their staff at least the minimum wage&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose a developing country destination for your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an event destination which is adopting and implementing policies to mitigate and adapt to climate change&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an event destination which is equally accessible and affordable for all&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an event destination with access to safe, affordable, accessible and sustainable transport systems&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an event destination with renewable energy sources&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose an organic and seasonal food menu&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose event content and materials which promote local culture and products (and creates local jobs)&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose suppliers that pay living wages&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Choose suppliers who are reporting on their sustainability initiatives and/or encouraging the event industry to share best practice&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Collaborate with the local community to understand the potential event impacts&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create an anti discrimination policy for your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create an equal opportunity policy for your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create less waste&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Create more awareness for delegates around what makes site cities sustainable and why we chose&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Deliver an activity at your event to facilitate inclusion and participation from all&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Develop better sourcing&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Do an environmental impact assessment on the land being used for your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Do not distribute materials or meals with known carcinorgens; etc.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Do not use an event destination with high levels of air, water and soil pollution&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Educate the end to stigma&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Encourage less air travel and more meaningful connections via alternative ways to meet.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;encourage organizers to have sustainable seafood in the catering&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;encourage zero population growth in countries in Middle East and Subsaharan africa.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure at least 50\% of content for your event is provided by women (eg panel conversations)&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;ensure that all venue meal leftovers are donated immediately&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Ensure that empowerment/leadership is part of education&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;establish educational opportunities for colleagues at work&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Formulate sustainable events guidelines&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;have each attendee provide a goal of peace and follow up with them on their progress&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Have major Hotelâs develop real sustainability policies&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;have speakers speak to this during events&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;I am not an organiser but encourage this as part of my contract.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Identify where you are using plastic at your event and choose suppliers who can help you reduce this use&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Improved education and options on waste streams and enforce them&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Increasing protection  and treatment of animals (wildlife; in food production; and domestic)&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;It their core conventions are not environmentally sustainable. The most we can hope for is to lessen our carbon footprint. We have also investing in more live streaming for those who cannot attend in person.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Lobby government for increased climate legislation for hospitality and events industry&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Look for venues that promote and use green energy sources.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Look for ways to educate attendees about making green choices while away from home; decline housekeeping services; walk or public transport; etc.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Make your events 100\% accessible.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Mental health and wellbeing&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Need to promote central government Level (in case of Japan)&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Patronize event suppliers with equitable employment practices.&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide access to different waste stream bins (food waste, glass, paper, metal, plastic etc) at your event and work with your supply chain to prevent, reduce, recycle and reuse&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide accessible drinking stations at your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide education about national &amp; global health risks at your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide education about social, economic and political inclusion of all at your event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide education at meals around the global hunger crisis&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide internships to allow young people to gain relevant skills&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;provide reusable conference resources&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide training at events on Human Rights&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Provide training at events to end human trafficking&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;reduce power at venues&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Report on your event’s sustainability&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Set up task forces to combate these areas&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Share content created at events which will support an increase in knowledge and skills for sustainable development&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Showcase carbon footprint of items at event&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;shrink the wealth gap&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;stamp out unconscious bias&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use a sustainability calculator for events of different scales&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use renewable energy&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Use reusable materials&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;verify equal pay for equal work&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;verify safe and standard work practices followed for all onsite employees&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;work with venues to ensure all items are reusable and sustainable&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Working on this now&quot;' />
+                      <groupfilter function='member' level='[none:Action:nk]' member='&quot;Would like to showcase sustainable venues more in post event articles; reports. Have a tracked carbon footprint of attendees&quot;' />
+                    </groupfilter>
+                  </groupfilter>
+                </groupfilter>
+                <order>
+                  <hierarchy name='[none:Action:nk]' />
+                  <hierarchy name='[none:Duration:nk]' />
+                </order>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Action:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.14151bb1cdmyzn0zkt9hp12a5evd].[cnt:Action:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[Exclusiones (Action,Duration)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Action:nk]' value='532' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Duration:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Action:nk]</rows>
+        <cols>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[cnt:Action:qk]</cols>
+      </table>
+      <simple-id uuid='{C2D00322-DC03-4F61-9EE6-C54CF10A08EE}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='29250' id='3' name='Hoja 1' w='98400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='68750' id='8' name='Hoja 1' pane-specification-id='0' param='[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Duration:nk]' type='color' w='98400' x='800' y='30250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='9' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='10' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='226' h='29250' id='3' is-fixed='true' name='Hoja 1' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='68750' id='8' name='Hoja 1' pane-specification-id='0' param='[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Duration:nk]' type='color' w='98400' x='800' y='30250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{44602959-949B-41F2-8CE7-61D8D528C90F}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Hoja 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Duration:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[cnt:Action:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Action:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[cnt:Action:qk]</field>
+                  <field>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Action:nk]</field>
+                  <field>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Duration:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>10</value>
+                <value>&quot;Provide accessible drinking stations at your event&quot;</value>
+                <value>&quot;1 month&quot;</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[cnt:Action:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Action:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[cnt:Action:qk]</field>
+                  <field>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Action:nk]</field>
+                  <field>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Duration:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>12</value>
+                <value>&quot;Ensure at least 50\% of content for your event is provided by women (eg panel conversations)&quot;</value>
+                <value>&quot;1 month&quot;</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[cnt:Action:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Action:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[cnt:Action:qk]</field>
+                  <field>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Action:nk]</field>
+                  <field>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Duration:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>14</value>
+                <value>&quot;Provide internships to allow young people to gain relevant skills&quot;</value>
+                <value>&quot;1 month&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Action:nk]</field>
+            <field>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Duration:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BC237B4F-691D-4C05-B88D-E3F65B03FA05}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Hoja 1'>
+          <highlight>
+            <color-one-way>
+              <field>[federated.14151bb1cdmyzn0zkt9hp12a5evd].[none:Duration:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{6A5F400C-5155-4CCA-99AD-ADF153503106}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='179' name='Hoja 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAACzCAYAAADfahNoAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACYElEQVR4nO3XIUqEURSA0TeiCAYx2gWbgk1XIWi02BTEzQiCNjdgnS1MtwizCrvht4zg
+      CvzDd0577ZaPd+9imqZpQNTW3APAnARAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBN
+      AKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0rbn
+      HgD+x8d4u3seq81re+9wnFzdC4CQi4fxens6xhjj+2s9li9PViCadg6Ox+X1mQBoswKR9P21
+      Hsv3TwEQsnoed5sreHf/aJzfPAqAkD9H8C83AGkCIG0xTdM09xAwFz8AaQIgTQCkCYA0AZAm
+      ANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIg
+      TQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIE
+      QJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCk
+      CYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoA
+      SBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0
+      AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMA
+      aQIgTQCkCYA0AZAmANIEQNoPgi0fs23GE7AAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
