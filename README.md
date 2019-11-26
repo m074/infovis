@@ -1,6 +1,6 @@
 # infovis
-# [Make over monday] (https://data.world/makeovermonday)
-[w32 - CCGT replaces Coal in Britain power generation](https://github.com/m074/infovis/blob/master/w32/w32%20CCGT%20replaces%20Coal%20in%20Britain%20power%20generation.png)
+# Make over monday 
+[w32 - CCGT replaces Coal (https://github.com/m074/infovis/blob/master/w32/w32%20CCGT%20replaces%20Coal%20in%20Britain%20power%20generation.png)
 [w33] (https://github.com/m074/infovis/blob/master/w33/w33.png)
 [w34 - Spend too much time on their cellphone] (https://github.com/m074/infovis/blob/master/w34/w34.png)
 [w35] (https://github.com/m074/infovis/blob/master/w35/w35.png)
